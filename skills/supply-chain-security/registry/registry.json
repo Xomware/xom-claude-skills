@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-02-28",
+  "approved_skills": [
+    {"name": "instinct-system", "source": "internal", "risk": "LOW", "reviewer": "JarvisXomware", "status": "approved"},
+    {"name": "search-first", "source": "internal", "risk": "LOW", "reviewer": "JarvisXomware", "status": "approved"}
+  ],
+  "review_required": true,
+  "auto_reject_patterns": ["fetch(", "require('http')", "process.env.", "~/.ssh", "~/.aws", "eval(", "exec("]
+}
